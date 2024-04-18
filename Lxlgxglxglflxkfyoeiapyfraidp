@@ -4351,22 +4351,6 @@ sky.SkyboxUp = texture
 })
 
 Tabs.Skys:AddButton({
-    Title = "Purple Nebula",
-    Callback = function()
-        getgenv().Kitten = 5
-        local skyboxes = {
-    ["Purple Nebula"] = {
-        ["SkyboxBk"] = "rbxassetid://159454299",
-        ["SkyboxDn"] = "rbxassetid://159454296",
-        ["SkyboxFt"] = "rbxassetid://159454293",
-        ["SkyboxLf"] = "rbxassetid://159454286",
-        ["SkyboxRt"] = "rbxassetid://159454300",
-        ["SkyboxUp"] = "rbxassetid://159454288"
-    },
-    end
-})
-
-Tabs.Skys:AddButton({
     Title = "Red Fog",
     Callback = function()
               getgenv().Kitten = 5
